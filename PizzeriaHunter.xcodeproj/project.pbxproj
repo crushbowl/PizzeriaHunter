@@ -12,6 +12,8 @@
 		A8485B871D11F5B100EDA416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8485B851D11F5B100EDA416 /* Main.storyboard */; };
 		A8485B891D11F5B100EDA416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8485B881D11F5B100EDA416 /* Assets.xcassets */; };
 		A8485B8C1D11F5B100EDA416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8485B8A1D11F5B100EDA416 /* LaunchScreen.storyboard */; };
+		A8485B941D11FD2900EDA416 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8485B931D11FD2900EDA416 /* MapKit.framework */; };
+		A8485B961D122A9E00EDA416 /* RouteMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8485B951D122A9E00EDA416 /* RouteMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A8485B881D11F5B100EDA416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8485B8B1D11F5B100EDA416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8485B8D1D11F5B100EDA416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8485B931D11FD2900EDA416 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A8485B951D122A9E00EDA416 /* RouteMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8485B941D11FD2900EDA416 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		A8485B751D11F5B100EDA416 = {
 			isa = PBXGroup;
 			children = (
+				A8485B931D11FD2900EDA416 /* MapKit.framework */,
 				A8485B801D11F5B100EDA416 /* PizzeriaHunter */,
 				A8485B7F1D11F5B100EDA416 /* Products */,
 			);
@@ -57,6 +63,7 @@
 				A8485B811D11F5B100EDA416 /* AppDelegate.swift */,
 				A8485B831D11F5B100EDA416 /* ViewController.swift */,
 				A8485B851D11F5B100EDA416 /* Main.storyboard */,
+				A8485B951D122A9E00EDA416 /* RouteMapView.swift */,
 				A8485B881D11F5B100EDA416 /* Assets.xcassets */,
 				A8485B8A1D11F5B100EDA416 /* LaunchScreen.storyboard */,
 				A8485B8D1D11F5B100EDA416 /* Info.plist */,
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8485B961D122A9E00EDA416 /* RouteMapView.swift in Sources */,
 				A8485B841D11F5B100EDA416 /* ViewController.swift in Sources */,
 				A8485B821D11F5B100EDA416 /* AppDelegate.swift in Sources */,
 			);
